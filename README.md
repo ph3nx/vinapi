@@ -1,6 +1,10 @@
 # Vinapi
 
-TODO: Write a gem description
+[![Gem Version](https://badge.fury.io/rb/vinapi.svg)](http://badge.fury.io/rb/vinapi)
+[![Build Status](https://travis-ci.org/ph3nx/vinapi.svg?branch=v0.0.1)](https://travis-ci.org/ph3nx/vinapi)
+[![Coverage Status](https://coveralls.io/repos/ph3nx/vinapi/badge.png?branch=master)](https://coveralls.io/r/ph3nx/vinapi?branch=master)
+
+Access to the public Vine API.
 
 ## Installation
 
