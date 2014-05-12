@@ -3,15 +3,15 @@ module Vinapi
 
 		attr_reader :user
 
-		def initialize username = nil, password = nil
-			if username && password
-				@username = username
-				@password = password
-
-				@user = Requestor.new.login @username, @password
-			else
-
+		def initialize email = nil, password = nil
+			if email && password
+				@user = User.new email, password
 			end
 		end
+
+		def popular
+			Request.popular
+		end
+
 	end
 end
