@@ -6,7 +6,7 @@ describe Vinapi do
 
 	describe 'Client' do
 		it 'init' do
-			@c = Vinapi::Client.new 'pasi1995@gmail.com', ",TcDm-kOpgF'2olI*gP&(HgE][Fg)X"
+			@c = Vinapi::Client.new 'xxx', "xxx"
 		end
 
 		it 'mm' do
